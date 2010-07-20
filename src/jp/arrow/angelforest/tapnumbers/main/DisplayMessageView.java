@@ -99,9 +99,8 @@ public class DisplayMessageView extends View {
 
     private void displayGo(Canvas canvas) {
         paint.setColor(Color.CYAN);
-        //does this conflict?
+        //Conflict test
         canvas.drawText("Go! " + counter, 0, 10, paint);
-//        Log.e(null, "Go: " + counter);
         counter++;
     }
 
